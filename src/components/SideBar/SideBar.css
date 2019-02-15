@@ -1,0 +1,33 @@
+.sidebar {
+    background-color:#BD903C;
+    grid-column: sidebar-start / sidebar-end;
+    grid-row: 1/-1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+  }
+  .sidebar__btn-container{
+    cursor: pointer;
+     position: fixed;
+
+     width: 5.5rem;
+     height: 5.5rem;
+     border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     z-index: 50;
+  }
+  .sidebar__button {
+    border:none;
+    background-color:white;
+    height: 1rem;
+    width: 3rem;
+    z-index: 100;
+    -webkit-clip-path: polygon(50% 75%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    clip-path: polygon(50% 75%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+
+  

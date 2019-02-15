@@ -1,0 +1,12 @@
+.HomePage {
+    display: grid;
+    grid-template-rows: 80vh min-content repeat(4,auto);
+    grid-template-columns:
+            [sidebar-start] 8rem 
+            [sidebar-end full-start] 1fr 
+            [center-start] repeat(8, [col-start] minmax(6rem,1fr) [col-end] ) 
+            [center-end] 1fr [full-end];
+    background-color: rgb(231, 229, 229)
+  }
+  
+ 

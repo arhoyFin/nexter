@@ -1,0 +1,15 @@
+.feature {
+    background-color: #b1aeae;
+    padding: 3rem;
+
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.feature h4 {
+    color:white;
+}
+.feature p {
+    text-align: center;
+}

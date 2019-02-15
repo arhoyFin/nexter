@@ -1,0 +1,5 @@
+.realtors {
+    background-color: rgb(161, 162, 207);
+    grid-column: col-start 7 / full-end;
+    grid-row: 1/2;
+}

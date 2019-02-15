@@ -1,0 +1,15 @@
+.btn {
+    padding: 1rem 1.5rem;
+    outline: 0;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color:#CCA42B;
+    color:white;
+    transition: all 0.4s;
+}
+.btn-primary:hover {
+    background-color:#BD903C;
+}

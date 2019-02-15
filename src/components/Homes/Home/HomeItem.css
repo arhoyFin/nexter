@@ -1,0 +1,35 @@
+
+.home__items{
+    grid-column: 1/-1;
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.home__location, .home__rooms, .home__area, .home__price {
+  
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.home__location:hover, .home__rooms:hover, .home__area:hover, .home__price:hover {
+  
+    background-color: #333333;
+}
+
+.home__items svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: rgb(167, 124, 9);
+    z-index: 10;
+}
